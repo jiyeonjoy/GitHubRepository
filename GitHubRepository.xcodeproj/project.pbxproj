@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA52895A2A259B69001156D7 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DA5289592A259B69001156D7 /* SnapKit */; };
+		DA52895C2A259FE9001156D7 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52895B2A259FE9001156D7 /* Repository.swift */; };
 		DABAE8232A2596B800E720EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAE8222A2596B800E720EB /* AppDelegate.swift */; };
 		DABAE8252A2596B800E720EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABAE8242A2596B800E720EB /* SceneDelegate.swift */; };
 		DABAE82C2A2596B900E720EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABAE82B2A2596B900E720EB /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		3FEF76BCA80F7355A2C18E1B /* Pods-GitHubRepository.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.release.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.release.xcconfig"; sourceTree = "<group>"; };
 		560ADBB0ED57FAD64C79081A /* Pods-GitHubRepository.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository.debug.xcconfig"; path = "Target Support Files/Pods-GitHubRepository/Pods-GitHubRepository.debug.xcconfig"; sourceTree = "<group>"; };
+		DA52895B2A259FE9001156D7 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		DABAE81F2A2596B800E720EB /* GitHubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABAE8222A2596B800E720EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DABAE8242A2596B800E720EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DABAE8302A2596B900E720EB /* Info.plist */,
 				DABAE8362A259A0500E720EB /* RepositoryListViewController.swift */,
 				DABAE8382A259AE400E720EB /* RepositoryListCell.swift */,
+				DA52895B2A259FE9001156D7 /* Repository.swift */,
 			);
 			path = GitHubRepository;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			files = (
 				DABAE8232A2596B800E720EB /* AppDelegate.swift in Sources */,
 				DABAE8252A2596B800E720EB /* SceneDelegate.swift in Sources */,
+				DA52895C2A259FE9001156D7 /* Repository.swift in Sources */,
 				DABAE8372A259A0500E720EB /* RepositoryListViewController.swift in Sources */,
 				DABAE8392A259AE400E720EB /* RepositoryListCell.swift in Sources */,
 			);
